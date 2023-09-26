@@ -1,0 +1,40 @@
+/* NAVIGATION */
+nav {
+  background-color: pink;
+  padding: 0 3rem;
+  grid-area: nav;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-link {
+  margin: 20px;
+  border: 2.5px solid #eee;
+  border-radius: 25px;
+  padding: 0.8rem;
+}
+
+.socials {
+  display: grid;
+  grid-auto-flow: row;
+  grid-gap: 0.5rem;
+  text-align: center;
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+}
+
+.social-link {
+  width: 40px;
+}
+
+.click-here-button {
+  font-weight: bold;
+  border: 3px solid black;
+}

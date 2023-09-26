@@ -1,0 +1,19 @@
+/* FOOTER */
+footer {
+  background-color: lightblue;
+  grid-area: ft;
+
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-main > div {
+  margin-bottom: 20px;
+}
+
+.footer-bottom {
+  font-size: 12px;
+}

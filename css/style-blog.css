@@ -1,0 +1,46 @@
+.content {
+  padding-top: 2.4rem;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+/* CONTENT-LEFT */
+.content {
+  display: grid;
+  grid-template-columns: repeat(2, 600px);
+  grid-gap: 6rem;
+}
+
+.content-left-container {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.avatar {
+  width: 50%;
+  background-color: #f2cc85;
+  border-radius: 50%;
+}
+
+/* QUOTE */
+.quote-container {
+  width: 60%;
+  text-align: right;
+}
+.quote {
+  font-style: italic;
+  font-size: 80%;
+}
+
+.field {
+  font-weight: bold;
+}
+
+.bio {
+  line-height: 2.4rem;
+}
+
+h2 {
+  text-align: center;
+}

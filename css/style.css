@@ -1,0 +1,62 @@
+@import "style-navigation.css";
+@import "style-content.css";
+@import "style-footer.css";
+@import "style-blog.css";
+
+body {
+  margin: 0;
+  font-family: "Cutive", serif;
+}
+
+a {
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  font-family: "Cutive", serif;
+}
+
+/* CONTAINER */
+.container {
+  display: grid;
+  grid-template-areas:
+    "hd hd hd hd hd"
+    "nav nav nav nav nav"
+    "ct ct ct ct as"
+    "ct ct ct ct as"
+    "ft ft ft ft ft";
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  background-color: yellow;
+  grid-area: hd;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+/* ASIDE */
+aside {
+  background-color: greenyellow;
+  grid-area: as;
+}
+
+.aside-container {
+  border: 2px solid #ada9a8;
+  margin: 2rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.aside-list-item {
+  margin-bottom: 1rem;
+}
