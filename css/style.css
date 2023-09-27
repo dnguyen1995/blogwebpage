@@ -1,11 +1,23 @@
+/* IMPORTING CSS FILES */
 @import "style-navigation.css";
 @import "style-content.css";
 @import "style-footer.css";
 @import "style-blog.css";
 
+/* GENERAL STYLING */
 body {
   margin: 0;
   font-family: "Cutive", serif;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
 }
 
 a {
@@ -19,6 +31,10 @@ ul {
 
 button {
   font-family: "Cutive", serif;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 /* CONTAINER */
@@ -52,9 +68,6 @@ aside {
 .aside-container {
   border: 2px solid #ada9a8;
   margin: 2rem;
-
-  display: flex;
-  flex-direction: column;
 }
 
 .aside-list-item {

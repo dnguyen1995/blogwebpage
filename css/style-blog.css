@@ -1,20 +1,20 @@
 .content {
   padding-top: 2.4rem;
-  display: grid;
-  grid-template-columns: 50% 50%;
 }
 
 /* CONTENT-LEFT */
 .content {
   display: grid;
   grid-template-columns: repeat(2, 600px);
-  grid-gap: 6rem;
 }
 
 .content-left-container {
-  display: flex;
-  flex-direction: column;
   align-items: end;
+  margin-right: 3rem;
+}
+
+.content-right-container {
+  margin-left: 3rem;
 }
 
 .avatar {
@@ -33,14 +33,60 @@
   font-size: 80%;
 }
 
-.field {
-  font-weight: bold;
-}
-
 .bio {
-  line-height: 2.4rem;
+  line-height: 1.8rem;
 }
 
 h2 {
   text-align: center;
+}
+
+/* SOCIAL MEDIA LINKS */
+.social-media-section {
+  grid-column: 1/-1;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+.social-links-blog {
+  justify-content: center;
+}
+
+.social-link--icon {
+  border: 3.5px solid;
+  font-size: 3.5rem;
+  padding: 15px;
+  border-radius: 50%;
+  color: #eee;
+  margin-left: 1.2rem;
+}
+#twitter {
+  background-color: #1da1f2;
+  border-color: #1da1f2;
+}
+
+#facebook {
+  background-color: #4267b2;
+  border-color: #4267b2;
+}
+
+#instagram {
+  background-color: #e1306c;
+  border-color: #e1306c;
+}
+
+#linkedin {
+  background-color: #0077b5;
+  border-color: #0077b5;
+}
+
+#snapchat {
+  background-color: #e4af00;
+  border-color: #e4af00;
+}
+/* SUBSCRIBE SECTION */
+.subscription-section {
+  justify-content: center;
+  text-align: center;
+  grid-column: 1/-1;
+  padding-bottom: 3.5rem;
 }

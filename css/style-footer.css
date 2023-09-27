@@ -5,15 +5,15 @@ footer {
 
   padding: 20px;
 
-  display: flex;
-  flex-direction: column;
   text-align: center;
 }
 
-.footer-main > div {
-  margin-bottom: 20px;
+.footer-bottom {
+  padding: 1.5rem 0 1.5rem 0;
+  font-size: 12px;
 }
 
-.footer-bottom {
-  font-size: 12px;
+.social-link--footer {
+  color: black;
+  font-size: 25px;
 }

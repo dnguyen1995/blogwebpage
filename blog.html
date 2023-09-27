@@ -25,25 +25,29 @@
       <nav class="section">
         <ul class="nav-links">
           <li>
-            <button class="nav-link"><a href="#">Gallery</a></button>
+            <button class="nav-link"><a href="index.html">Gallery</a></button>
           </li>
           <li>
-            <button class="nav-link"><a href="#">Merchandise</a></button>
+            <button class="nav-link">
+              <a href="index.html">Merchandise</a>
+            </button>
           </li>
           <li>
-            <button class="nav-link"><a href="#">SUBSCRIBE</a></button>
+            <button class="nav-link"><a href="index.html">SUBSCRIBE</a></button>
           </li>
           <li>
-            <button class="nav-link"><a href="#">Travel Tips</a></button>
+            <button class="nav-link">
+              <a href="index.html">Travel Tips</a>
+            </button>
           </li>
           <li>
-            <button class="nav-link"><a href="#">About Me</a></button>
+            <button class="nav-link"><a href="index.html">About Me</a></button>
           </li>
         </ul>
       </nav>
       <section class="content">
         <div class="content-left">
-          <div class="content-left-container">
+          <div class="content-left-container flex-column">
             <img src="images/avatar.png" class="avatar" alt="avatar-img" />
             <div class="quote-container">
               <blockquote
@@ -61,35 +65,86 @@
           </div>
         </div>
         <div class="content-right">
-          <div class="bio-container">
+          <article class="content-right-container">
             <h2>About Me</h2>
-            <p class="bio-line"><span class="field">Name: </span>Duc Nguyen</p>
+            <p class="bio-line"><span class="bold">Name: </span>Duc Nguyen</p>
             <p class="bio-line">
-              <span class="field">Title: </span>IT Business Analyst
+              <span class="bold">Title: </span>IT Business Analyst
             </p>
             <p class="bio-line">
-              <span class="field">Current Company: </span>SASH (Small Animal
+              <span class="bold">Current Company: </span>SASH (Small Animal
               Specialist Hospital)
             </p>
             <p class="bio-line bio">
-              <span class="field">Bio: </span>I've been in the IT industry for 6
+              <span class="bold">Bio: </span>I've been in the IT industry for 6
               years. I worked worked in a Service Desk position in an MSP where
               I was exposed to various environments and expose to all sorts of
               problems.
               <br />
-
-              I apsire to be a Web Developer which I can make application for
-              companies to assist in automation. The languages I'm currently
-              learning is JavaScript in which I use Node JS to make application.
+              icon I apsire to be a Web Developer which I can make application
+              for" companies to assist in automation. The languages I'm
+              currently learning is JavaScript in which I use Node JS to make
+              application.
               <br />
               During my spare time, I go to the gym, learn to code and go for a
               walk with my dog.
             </p>
+          </article>
+        </div>
+        <div class="social-media-section flex-column">
+          <h3 class="social-caption">
+            Follow my social to get the latest updates!
+          </h3>
+          <div class="social-links-blog flex-row">
+            <a href="index.html"
+              ><ion-icon
+                name="logo-twitter"
+                class="social-link--icon"
+                id="twitter"
+              ></ion-icon
+            ></a>
+            <a href="index.html"
+              ><ion-icon
+                name="logo-facebook"
+                class="social-link--icon"
+                id="facebook"
+              ></ion-icon
+            ></a>
+            <a href="index.html"
+              ><ion-icon
+                name="logo-instagram"
+                class="social-link--icon"
+                id="instagram"
+              ></ion-icon
+            ></a>
+            <a href="index.html"
+              ><ion-icon
+                name="logo-linkedin"
+                class="social-link--icon"
+                id="linkedin"
+              ></ion-icon
+            ></a>
+            <a href="index.html"
+              ><ion-icon
+                name="logo-snapchat"
+                class="social-link--icon"
+                id="snapchat"
+              ></ion-icon
+            ></a>
+          </div>
+        </div>
+        <div class="subscription-section flex-column">
+          <p class="subscribe--caption">
+            Subscribe to my mailing list to get notification once I upload
+          </p>
+          <div class="subscribe-input">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
           </div>
         </div>
       </section>
       <aside class="section">
-        <div class="aside-container">
+        <div class="aside-container flex-column">
           <h3>My bucket list:</h3>
           <ul class="list-flex">
             <li class="aside-list-item">England</li>
@@ -100,28 +155,43 @@
           </ul>
         </div>
       </aside>
-      <footer class="section">
+      <footer class="section flex-column">
         <div class="footer-main">
           <div class="footer-main-title">
             <h2>Udacity Presents: My Travel Stories</h2>
           </div>
           <div class="footer-main-quote"></div>
           <div class="footer-main-socials">
-            <div class="social-links">
-              <a href="https://www.twitter.com" class="social-link"
-                ><ion-icon name="logo-twitter"></ion-icon
+            <div class="social-links-footer">
+              <a href="blog.html" class="social-link"
+                ><ion-icon
+                  name="logo-twitter"
+                  class="social-link--footer"
+                ></ion-icon
               ></a>
-              <a href="https://www.facebook.com" class="social-link"
-                ><ion-icon name="logo-facebook"></ion-icon
+              <a href="blog.html" class="social-link"
+                ><ion-icon
+                  name="logo-facebook"
+                  class="social-link--footer"
+                ></ion-icon
               ></a>
-              <a href="https://www.instagram.com" class="social-link"
-                ><ion-icon name="logo-instagram"></ion-icon
+              <a href="blog.html"
+                ><ion-icon
+                  name="logo-instagram"
+                  class="social-link--footer"
+                ></ion-icon
               ></a>
-              <a href="https://www.snapchat.com" class="social-link"
-                ><ion-icon name="logo-linkedin"></ion-icon
+              <a href="blog.html" class="social-link"
+                ><ion-icon
+                  name="logo-linkedin"
+                  class="social-link--footer"
+                ></ion-icon
               ></a>
-              <a href="https://www.snapchat.com" class="social-link"
-                ><ion-icon name="logo-snapchat"></ion-icon
+              <a href="blog.html" class="social-link"
+                ><ion-icon
+                  name="logo-snapchat"
+                  class="social-link--footer"
+                ></ion-icon
               ></a>
             </div>
           </div>
