@@ -1,6 +1,6 @@
 /* CONTENT */
 section {
-  background-color: aquamarine;
+  background-color: #8fd879;
   grid-area: ct;
   display: flex;
   justify-content: center;
@@ -14,7 +14,7 @@ section {
   gap: 10px;
 }
 .blog-box {
-  background-color: bisque;
+  background-color: #acff93;
   border: 2px solid #000;
   text-align: center;
 
@@ -23,40 +23,8 @@ section {
   font-size: 0.9rem;
 }
 
-.blog-box--large {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.blog-box--large--left {
-  margin: 0;
-}
-.blog-box--large--right {
-  justify-content: center;
-  align-items: center;
-}
-
 .blog-flex-item {
   margin-bottom: 12px;
-}
-
-#one {
-  border-top-left-radius: 10%;
-}
-
-#three {
-  border-top-right-radius: 10%;
-}
-#four {
-  grid-column: 1 / span 2;
-}
-
-#six {
-  border-bottom-left-radius: 10%;
-}
-#seven {
-  grid-column: 2/-1;
-  border-bottom-right-radius: 10%;
 }
 
 .blog-photo {
@@ -71,4 +39,9 @@ section {
 .blog-card-button {
   border-radius: 20px;
   padding: 10px;
+}
+
+.show-more-div {
+  justify-content: center;
+  grid-column: 1/-1;
 }

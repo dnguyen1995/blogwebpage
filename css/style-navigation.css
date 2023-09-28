@@ -1,11 +1,8 @@
 /* NAVIGATION */
 nav {
-  background-color: pink;
+  background-color: #000;
   padding: 0 3rem;
   grid-area: nav;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .nav-links {
@@ -14,9 +11,10 @@ nav {
 
 .nav-link {
   margin: 20px;
-  border: 2.5px solid #eee;
+  border: 2.5px solid #9cbfff;
   border-radius: 25px;
   padding: 0.8rem;
+  background-color: #9cbfff;
 }
 
 .socials {
@@ -32,9 +30,4 @@ nav {
 
 .social-link {
   width: 40px;
-}
-
-.click-here-button {
-  font-weight: bold;
-  border: 3px solid black;
 }
