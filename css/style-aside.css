@@ -1,0 +1,28 @@
+aside {
+  background-color: #8fd879;
+  grid-area: as;
+}
+
+.aside-container {
+  border: 2px solid #ada9a8;
+  margin: 2rem;
+}
+
+.aside-list-item {
+  margin-bottom: 1rem;
+}
+
+.aside-container {
+  border-radius: 75px;
+  font-size: 0.7rem;
+}
+
+.aside-title {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
