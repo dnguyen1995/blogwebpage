@@ -3,7 +3,7 @@
   <head>
     <title>Blog Post</title>
     <meta charset="'utf-8" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/style-general.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,6 +15,10 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Cutive&family=Cutive+Mono&display=swap"
       rel="stylesheet"
+    />
+    <meta
+      content="width=device-width, initial-scale=1,maximum-scale=1"
+      name="viewport"
     />
   </head>
   <body>
@@ -33,7 +37,9 @@
             </button>
           </li>
           <li>
-            <button class="nav-link"><a href="index.html">SUBSCRIBE</a></button>
+            <button class="nav-link" id="subscribe-btn">
+              <a href="index.html">SUBSCRIBE</a>
+            </button>
           </li>
           <li>
             <button class="nav-link">
@@ -45,7 +51,7 @@
           </li>
         </ul>
       </nav>
-      <section class="content">
+      <section class="content--blog">
         <div class="content-left">
           <div class="content-left-container flex-column">
             <img src="images/avatar.png" class="avatar" alt="avatar-img" />
@@ -140,6 +146,9 @@
           <div class="subscribe-input">
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required />
+            <a href="index.html"
+              ><input type="submit" value="Subscribe" class="subscribe-btn"
+            /></a>
           </div>
         </div>
       </section>
@@ -186,7 +195,6 @@
           </ul>
         </div>
       </aside>
-      >
       <footer class="section flex-column">
         <div class="footer-main">
           <div class="footer-main-title">
@@ -195,31 +203,31 @@
           <div class="footer-main-quote"></div>
           <div class="footer-main-socials">
             <div class="social-links-footer">
-              <a href="blog.html" class="social-link"
+              <a href="index.html" class="social-link"
                 ><ion-icon
                   name="logo-twitter"
                   class="social-link--footer"
                 ></ion-icon
               ></a>
-              <a href="blog.html" class="social-link"
+              <a href="index.html" class="social-link"
                 ><ion-icon
                   name="logo-facebook"
                   class="social-link--footer"
                 ></ion-icon
               ></a>
-              <a href="blog.html"
+              <a href="index.html"
                 ><ion-icon
                   name="logo-instagram"
                   class="social-link--footer"
                 ></ion-icon
               ></a>
-              <a href="blog.html" class="social-link"
+              <a href="index.html" class="social-link"
                 ><ion-icon
                   name="logo-linkedin"
                   class="social-link--footer"
                 ></ion-icon
               ></a>
-              <a href="blog.html" class="social-link"
+              <a href="index.html" class="social-link"
                 ><ion-icon
                   name="logo-snapchat"
                   class="social-link--footer"

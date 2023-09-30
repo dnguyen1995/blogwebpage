@@ -1,6 +1,8 @@
 /* FOOTER */
 footer {
-  background-color: #cdd7e1;
+  background-color: #000;
+  color: #eee;
+  letter-spacing: 4px;
   grid-area: ft;
   padding: 20px;
   text-align: center;
@@ -12,6 +14,6 @@ footer {
 }
 
 .social-link--footer {
-  color: black;
+  color: #eee;
   font-size: 25px;
 }

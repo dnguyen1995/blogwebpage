@@ -1,0 +1,84 @@
+/* IMPORTING CSS FILES */
+@import "style-navigation.css";
+@import "style-content.css";
+@import "style-footer.css";
+@import "style-blog.css";
+@import "style-aside.css";
+
+/* GENERAL STYLING */
+body {
+  margin: 0;
+  font-family: "Cutive", serif;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+  display: grid;
+}
+
+a {
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  font-family: "Cutive", serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* HEADER */
+header {
+  color: #fff;
+  text-align: center;
+  background-color: #000;
+  grid-area: hd;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+a:visited {
+  color: #000;
+}
+
+/* CONTAINER */
+.container {
+  grid-template-columns: repeat(4, 20vw);
+  grid-template-areas:
+    "hd hd hd hd hd"
+    "nav nav nav nav nav"
+    "ct ct ct ct ct"
+    "ct ct ct ct ct"
+    "as as as as as"
+    "ft ft ft ft ft";
+}
+
+/* GENERAL MEDIA QUERIES */
+@media (min-width: 1301px) {
+  .container {
+    grid-template-areas:
+      "hd hd hd hd hd"
+      "nav nav nav nav nav"
+      "ct ct ct ct as"
+      "ct ct ct ct as"
+      "ft ft ft ft ft";
+    grid-template-columns: repeat(4, 20vw) 20vw;
+  }
+}
