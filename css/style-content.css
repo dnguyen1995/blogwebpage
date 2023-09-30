@@ -125,7 +125,7 @@ section {
   }
 
   #three {
-    border-radius: 0;
+    border-top-right-radius: 10%;
   }
 
   #four {

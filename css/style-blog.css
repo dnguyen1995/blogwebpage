@@ -95,6 +95,15 @@ h2 {
   padding-bottom: 3.5rem;
 }
 
+.subscribe-btn {
+  padding: 0.4rem;
+  font-size: 1rem;
+  border: 3.5px solid #1f8a70;
+  background-color: #bfdb38;
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 75px;
+}
+
 @media (min-width: 1301px) {
   .list-flex {
     display: flex;

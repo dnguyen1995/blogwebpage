@@ -4,12 +4,14 @@ aside {
 }
 
 .aside-container {
-  border: 2px solid #ada9a8;
+  border: 2px solid black;
   margin: 2rem;
+  background-color: #acff93;
 }
 
 .aside-list-item {
   margin-bottom: 1rem;
+  font-size: 15px;
 }
 
 .aside-container {
