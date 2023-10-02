@@ -1,0 +1,148 @@
+.content--blog {
+  flex-direction: column;
+}
+
+.content-left-container {
+  padding-top: 20px;
+  align-items: center;
+  margin-right: 3rem;
+}
+
+.content-right-container {
+  margin-left: 3rem;
+}
+
+.avatar {
+  width: 50%;
+  background-color: #f2cc85;
+  border-radius: 50%;
+}
+
+/* QUOTE */
+.quote-container {
+  width: 60%;
+  text-align: right;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 80%;
+}
+
+.bio {
+  line-height: 1.8rem;
+}
+
+h2 {
+  text-align: center;
+}
+
+.list-flex {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* SOCIAL MEDIA LINKS */
+.social-media-section {
+  grid-column: 1/-1;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.social-links-blog {
+  justify-content: center;
+}
+
+.social-link--icon {
+  border: 3.5px solid;
+  font-size: 3.5rem;
+  padding: 15px;
+  border-radius: 50%;
+  color: #eee;
+  margin-left: 1.2rem;
+}
+
+#twitter {
+  background-color: #1da1f2;
+  border-color: #1da1f2;
+}
+
+#facebook {
+  background-color: #4267b2;
+  border-color: #4267b2;
+}
+
+#instagram {
+  background-color: #e1306c;
+  border-color: #e1306c;
+}
+
+#linkedin {
+  background-color: #0077b5;
+  border-color: #0077b5;
+}
+
+#snapchat {
+  background-color: #e4af00;
+  border-color: #e4af00;
+}
+
+/* SUBSCRIBE SECTION */
+.subscription-section {
+  justify-content: center;
+  text-align: center;
+  grid-column: 1/-1;
+  padding-bottom: 3.5rem;
+}
+
+.subscribe-btn {
+  padding: 0.4rem;
+  font-size: 1rem;
+  border: 3.5px solid #1f8a70;
+  background-color: #bfdb38;
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 75px;
+}
+
+@media (min-width: 1301px) {
+  .list-flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content--blog {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 1fr auto;
+  }
+
+  .content-left-container {
+    align-items: end;
+    justify-content: center;
+    margin-top: 53px;
+  }
+
+  .content-right-container {
+    margin: 0;
+  }
+
+  .social-media-section {
+    grid-column: 2/-1;
+    margin-bottom: 3rem;
+    margin-top: 0;
+  }
+
+  .social-link--icon {
+    width: 60%;
+    height: 60%;
+  }
+
+  .social-links-blog {
+    justify-content: space-between;
+    padding: 0 5rem 0 5rem;
+  }
+
+  .social-caption {
+    margin-top: 0;
+  }
+}
