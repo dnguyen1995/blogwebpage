@@ -1,8 +1,8 @@
 /* IMPORTING CSS FILES */
 @import "style-navigation.css";
-@import "style-content.css";
+@import "style-home-content.css";
 @import "style-footer.css";
-@import "style-blog.css";
+@import "style-blog-content.css";
 @import "style-aside.css";
 
 /* GENERAL STYLING */
@@ -42,6 +42,18 @@ button {
   font-weight: bold;
 }
 
+/* CONTAINER */
+.container {
+  grid-template-columns: repeat(4, 20vw);
+  grid-template-areas:
+    "hd hd hd hd hd"
+    "nav nav nav nav nav"
+    "ct ct ct ct ct"
+    "ct ct ct ct ct"
+    "as as as as as"
+    "ft ft ft ft ft";
+}
+
 /* HEADER */
 header {
   color: #fff;
@@ -56,18 +68,6 @@ header {
 
 a:visited {
   color: #000;
-}
-
-/* CONTAINER */
-.container {
-  grid-template-columns: repeat(4, 20vw);
-  grid-template-areas:
-    "hd hd hd hd hd"
-    "nav nav nav nav nav"
-    "ct ct ct ct ct"
-    "ct ct ct ct ct"
-    "as as as as as"
-    "ft ft ft ft ft";
 }
 
 /* GENERAL MEDIA QUERIES */

@@ -169,10 +169,28 @@ section {
   .content-grid {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
+    margin-bottom: 32px;
+  }
+
+  #one {
+    border-top-left-radius: 10%;
+  }
+
+  #three {
+    border-top-right-radius: 10%;
   }
 
   #four {
     grid-column: 1 / span 2;
+  }
+
+  #six {
+    border-bottom-left-radius: 10%;
+  }
+
+  #seven {
+    grid-column: 2/-1;
+    border-bottom-right-radius: 10%;
   }
 
   .blog-box--large {
@@ -186,10 +204,6 @@ section {
   .blog-box--large--right {
     justify-content: center;
     align-items: center;
-  }
-
-  #seven {
-    grid-column: 2/-1;
   }
 
   .show-more--div.flex-row {
