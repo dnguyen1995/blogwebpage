@@ -1,4 +1,8 @@
 /* FOOTER */
+h3 {
+  font-size: 18px;
+  text-decoration: underline;
+}
 footer {
   background-color: #000;
   color: #eee;

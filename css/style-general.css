@@ -42,6 +42,11 @@ button {
   font-weight: bold;
 }
 
+.photo-caption {
+  font-size: 9px;
+  font-style: italic;
+}
+
 /* CONTAINER */
 .container {
   grid-template-columns: repeat(4, 20vw);
@@ -62,8 +67,9 @@ header {
   grid-area: hd;
 }
 
-.title {
-  font-size: 3rem;
+h1 {
+  font-weight: bold;
+  font-size: 3.5rem;
 }
 
 a:visited {
